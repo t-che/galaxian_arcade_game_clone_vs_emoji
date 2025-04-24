@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+#game-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game-canvas {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    background: #000;
+    touch-action: none;
+}
+
+#hud {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    max-width: 800px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: min(2.5vw, 18px);
+    pointer-events: none;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid cyan;
+    border-radius: 5px;
+}
+
+#score.active {
+    animation: pulse 0.5s;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+#help-button {
+    background: #333;
+    border: 2px solid cyan;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: min(2.5vw, 16px);
+    pointer-events: auto;
+    border-radius: 3px;
+}
+
+#help-button:hover {
+    background: #555;
+}
+
+#help-popup, #game-over-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+#help-content, #game-over-content {
+    background: #222;
+    border: 2px solid cyan;
+    padding: 20px;
+    color: white;
+    max-width: min(90%, 500px);
+    text-align: center;
+    border-radius: 5px;
+}
+
+#help-content h2, #game-over-content h2 {
+    margin-top: 0;
+    color: cyan;
+}
+
+#help-content ul {
+    padding-left: 20px;
+    text-align: left;
+}
+
+#final-score {
+    font-size: min(3vw, 18px);
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+#close-help, #restart-button {
+    background: #333;
+    border: 2px solid cyan;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto 0;
+    font-size: min(2.5vw, 16px);
+    border-radius: 3px;
+}
+
+#close-help:hover, #restart-button:hover {
+    background: #555;
+}
+
+.hidden {
+    display: none;
+}
