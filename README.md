@@ -1,0 +1,2 @@
+# galaxian_arcade_game_clone_vs_emoji
+Retro-inspired *Galaxian Clone*: shoot alien waves, dodge dives, and earn points. Features smooth animations, particle explosions, and a responsive HUD. Built with HTML5 Canvas, JavaScript, and CSS.
