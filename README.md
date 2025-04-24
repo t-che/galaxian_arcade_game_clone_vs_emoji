@@ -33,7 +33,8 @@ Galaxian Clone is a fresh twist on the classic arcade shooter, featuring emoji g
    ```bash
    git clone https://github.com/t-che/galaxian_arcade_game_clone_vs_emoji.git
    cd galaxian_arcade_game_clone_vs_emoji
-   Then open `index.html` in your browser  
+
+Then open `index.html` in your browser  
 
 2. **Alternative method**:  
    - Download ZIP archive from GitHub  
@@ -79,7 +80,8 @@ For feedback and suggestions:
    ```bash
    git clone https://github.com/t-che/galaxian_arcade_game_clone_vs_emoji.git
    cd galaxian_arcade_game_clone_vs_emoji
-   Затем откройте `index.html` в браузере  
+
+Затем откройте `index.html` в браузере  
 
 2. **Альтернативный способ**:  
    - Скачайте ZIP-архив с [страницы репозитория](https://github.com/t-che/galaxian_arcade_game_clone_vs_emoji)  
