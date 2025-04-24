@@ -44,7 +44,7 @@ Galaxian Clone is a fresh twist on the classic arcade shooter, featuring emoji g
 https://codepen.io/t_che/pen/myyWMZM
 
 ### 📜 License  
-MIT License - see [LICENSE](LICENSE) file  
+MIT License
 
 ### 📬 Contact  
 For feedback and suggestions:  
@@ -106,7 +106,7 @@ https://codepen.io/t_che/pen/myyWMZM
 - Следите за индикатором жизней в верхнем углу  
 
 ### 📜 Лицензия  
-MIT License - подробности в файле [LICENSE](LICENSE)  
+MIT License
 
 ### 📬 Контакты  
 По всем вопросам и предложениям:  
