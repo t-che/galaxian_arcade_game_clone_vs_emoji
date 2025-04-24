@@ -40,6 +40,9 @@ Galaxian Clone is a fresh twist on the classic arcade shooter, featuring emoji g
    - Extract files  
    - Open `index.html` in your browser  
 
+### Demo
+https://codepen.io/t_che/pen/myyWMZM
+
 ### 📜 License  
 MIT License - see [LICENSE](LICENSE) file  
 
@@ -83,6 +86,9 @@ For feedback and suggestions:
    - Распакуйте архив в удобную папку  
    - Запустите файл `index.html` двойным кликом  
 
+### Demo
+https://codepen.io/t_che/pen/myyWMZM
+
 ### 🎮 Как играть  
 1. Используйте стрелки ← → для движения корабля  
 2. Нажимайте Пробел для стрельбы  
@@ -105,7 +111,6 @@ MIT License - подробности в файле [LICENSE](LICENSE)
 ### 📬 Контакты  
 По всем вопросам и предложениям:  
 - Telegram: [@t_che](https://t.me/t_che)  
-- Email: example@example.com (замените на реальный)  
 - Issues на GitHub: [Сообщить о проблеме](https://github.com/t-che/galaxian_arcade_game_clone_vs_emoji/issues)  
 
 ### 🙏 Благодарности  
