@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxian Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="hud">
+            <span id="score">🌟 Score: 0</span>
+            <span id="lives">❤️ Lives: 3</span>
+            <button id="help-button">❓</button>
+        </div>
+        <canvas id="game-canvas" width="800" height="800"></canvas>
+        <div id="help-popup" class="hidden">
+            <div id="help-content">
+                <h2>Galaxian Clone</h2>
+                <p>Use the following controls:</p>
+                <ul>
+                    <li><strong>Left Arrow</strong>: Move left</li>
+                    <li><strong>Right Arrow</strong>: Move right</li>
+                    <li><strong>Space</strong>: Shoot</li>
+                    <li><strong>P</strong>: Pause/Resume</li>
+                </ul>
+                <button id="close-help">Close</button>
+            </div>
+        </div>
+        <div id="game-over-popup" class="hidden">
+            <div id="game-over-content">
+                <h2>Game Over</h2>
+                <p id="final-score"></p>
+                <button id="restart-button">Restart</button>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
