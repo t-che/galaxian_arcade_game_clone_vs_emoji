@@ -42,7 +42,8 @@ Then open `index.html` in your browser
    - Open `index.html` in your browser  
 
 ### 👾 Demo
-https://codepen.io/t_che/pen/myyWMZM
+[https://codepen.io/t_che/pen/myyWMZM]
+[https://t-che.github.io/galaxian_arcade_game_clone_vs_emoji/]
 
 ### 📜 License  
 MIT License
@@ -89,7 +90,8 @@ For feedback and suggestions:
    - Запустите файл `index.html` двойным кликом  
 
 ### 👾 Демонстрация игры
-https://codepen.io/t_che/pen/myyWMZM
+[https://codepen.io/t_che/pen/myyWMZM]
+[https://t-che.github.io/galaxian_arcade_game_clone_vs_emoji/]
 
 ### 🎮 Как играть  
 1. Используйте стрелки ← → для движения корабля  
